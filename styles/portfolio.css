@@ -1,3 +1,5 @@
+body,html {scroll-behavior: smooth;}
+
 /* 반응형 대비 최소제한 너비 설정 */
 header, main {min-width: 900px;}
 /* header-------------------------------------- */
@@ -22,9 +24,9 @@ header nav .gnb a:first-child:hover {
 header nav .gnb a:nth-child(2):hover {
     color: #057524;
 }
-/* header nav .gnb a:first-child:hover {
-    color: #0038FF;
-} */
+header nav .gnb a:nth-child(3):hover {
+    color: #A058E1;
+}
 /* header nav .gnb a:first-child:hover {
     color: #0038FF;
 } */
@@ -82,9 +84,9 @@ main #skill .container li .contents em {
 }
 /* profile----------------------------------------------- */
 main #profile {
-    padding: 100px 0 50px;
+    padding: 100px 0 50px;/* 
     background: url(../images/bg3.png) center no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 main #profile h1 {
     text-align: center;

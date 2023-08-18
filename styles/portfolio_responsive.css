@@ -4,3 +4,6 @@
 @media screen and (max-width:1200px) {
     main #skill .container {height: 1700px;}
 }
+@media screen and (max-width:1000px) {
+    main #project_web .link a {border-radius: 100%;}
+}
