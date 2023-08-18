@@ -1,0 +1,6 @@
+@media screen and (max-width:1495px) {
+        main #skill .container {height: 600px;}
+}
+@media screen and (max-width:1200px) {
+    main #skill .container {height: 1700px;}
+}
