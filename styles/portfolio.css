@@ -2,7 +2,7 @@ body,html {scroll-behavior: smooth;}
 
 /* 반응형 대비 최소제한 너비 설정 */
 header, main {min-width: 900px;}
-/* header-------------------------------------- */
+/* header==================================================================================================================================*/
 header {
     position: fixed; top: 0; left: 0;
     width: 100%; z-index: 999; padding: 20px 30px 0 30px;  
@@ -34,21 +34,22 @@ header nav .gnb a:last-child {margin-right: 0;}
 header nav .sns {}
 header nav .sns span {
     font-size: 1.875; font-weight: 500; letter-spacing: -0.02em;}
-/* main---------------------------------------- */
+/* main==================================================================================================================================*/
 main {}
 main > * {padding:0 30px;}
-main #home {position: relative;height: 100vh; }
-main #home h1 {width: 1015px; padding: 311px 0; padding-left: 150px; margin:0 auto;} 
+main #home {position: relative; height: 100vh;}
+main #home video {width: 100%; height: 100vh;}
+main #home h1 {width: 1015px; padding: 311px 0; padding-left: 150px; margin:0 auto; position: absolute; top: 0px; left: 450px;} 
 main #home h1 img {width: 100%;}
 main #home p {position: fixed; left: 80px; bottom: 73px;
-    animation: mouse 1s linear alternate infinite; 
+    animation: mouse 1s linear alternate infinite;
 }
 main #home p img {}
 @keyframes mouse {
     0% {transform: translateY(5px);}
     100% {transform: translateY(-10px);}
 }
-/* skill---------------------------------------------- */
+/* skill================================================================================================================================== */
 main #skill {
     background: url(../images/bgm.png) center;
     background-size: cover;
@@ -82,7 +83,7 @@ main #skill .container li .contents em {
     display: inline-block; margin-bottom: 10px;
     font-size: 1.56rem; font-weight: 700; 
 }
-/* profile----------------------------------------------- */
+/* profile================================================================================================================================== */
 main #profile {
     padding: 100px 0 50px;/* 
     background: url(../images/bg3.png) center no-repeat;
@@ -119,7 +120,7 @@ main #profile .txt ul li p {
     font-size: 1.25rem; letter-spacing: -0.02em;
     line-height: 27px;
 }
-/* proect_web1--------------------------------------- */
+/* proect_web1================================================================================================================================== */
 main #project_web1 {
     display: flex; flex-flow: column nowrap;
     align-items: center;
@@ -164,3 +165,93 @@ main #project_web1 .preview {
 }
 main #project_web1 .preview p {}
 main #project_web1 .preview p img {}
+/* proect_web2================================================================================================================================== */
+main #project_web2 {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #project_web2 h1 {
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+    padding-top: 130px; padding-bottom: 50px;
+}
+main #project_web2 .link {margin-top: 50px;}
+main #project_web2 .link a {
+    display: inline-block; text-align: center;
+    font-size: 1.56rem; font-weight: 500; letter-spacing: -0.02em;
+    width: 350px; border-radius: 25px; padding: 10px 0;
+}
+main #project_web2 .link a:first-child,
+main #project_web2 .link a:nth-child(2) {
+    background: #000; color: #fff; margin: 0 35px;
+    transition: all 0.4s linear;
+}
+main #project_web2 .link a:first-child:hover,
+main #project_web2 .link a:nth-child(2):hover {
+    background: #fff; color: #A058E1; 
+    box-shadow: 0px 0px 10px #A058E1;
+}
+main #project_web2 .link a:last-child {
+    background: #A058E1; color: #fff;
+    transition: all 0.4s linear;
+}
+main #project_web2 .link a:last-child:hover {
+    background: #fff; color: #A058E1; 
+    box-shadow: 0px 0px 10px #000;
+}
+main #project_web2 .project_info {}
+main #project_web2 .project_info p {
+    font-size: 1.25rem; line-height: 35px;
+    margin: 50px 0;
+}
+main #project_web2 .preview {
+    width: 985px;
+    display: flex; justify-content: space-between;
+}
+main #project_web2 .preview p {}
+main #project_web2 .preview p img {}
+/* proect_web3================================================================================================================================== */
+main #project_web3 {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #project_web3 h1 {
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+    padding-top: 130px; padding-bottom: 50px;
+}
+main #project_web3 .link {margin-top: 50px;}
+main #project_web3 .link a {
+    display: inline-block; text-align: center;
+    font-size: 1.56rem; font-weight: 500; letter-spacing: -0.02em;
+    width: 350px; border-radius: 25px; padding: 10px 0;
+}
+main #project_web3 .link a:first-child,
+main #project_web3 .link a:nth-child(2) {
+    background: #000; color: #fff; margin: 0 35px;
+    transition: all 0.4s linear;
+}
+main #project_web3 .link a:first-child:hover,
+main #project_web3 .link a:nth-child(2):hover {
+    background: #fff; color: #A058E1; 
+    box-shadow: 0px 0px 10px #A058E1;
+}
+main #project_web3 .link a:last-child {
+    background: #A058E1; color: #fff;
+    transition: all 0.4s linear;
+}
+main #project_web3 .link a:last-child:hover {
+    background: #fff; color: #A058E1; 
+    box-shadow: 0px 0px 10px #000;
+}
+main #project_web3 .project_info {}
+main #project_web3 .project_info p {
+    font-size: 1.25rem; line-height: 35px;
+    margin: 50px 0;
+}
+main #project_web3 .preview {
+    width: 985px;
+    display: flex; justify-content: space-between;
+}
+main #project_web3 .preview p {}
+main #project_web3 .preview p img {}
