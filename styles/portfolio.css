@@ -329,3 +329,49 @@ main #project_design2 .info .banner p img {
     width: 100%;
     border: 5px solid black; border-radius: 25px;
 }
+/* project_disig3=================================================================================== */
+#project_design3 {padding: 100px 0;}
+#project_design3 > p {
+    font-size: 2.1875rem; font-weight: 500;
+    letter-spacing: -0.02em; text-align: center;
+    margin-bottom: 60px;
+}
+#project_design3 > p em {
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+}
+#project_design3 .carde {}
+#project_design3 .carde p {
+    width: 400px; height: 400px; margin-right: 40px;
+}
+#project_design3 .carde p:last-child {margin-right: 0;}
+#project_design3 .carde p img {
+    width: 100%;
+    border: 3px solid black; border-radius: 25px;
+}
+#project_design3 .carde .top {
+    display: flex; justify-content: center;
+    margin-bottom: 40px;
+}
+#project_design3 .carde .btm {
+    display: flex; justify-content: center;
+}
+/* project_disig4=================================================================================== */
+#project_design4 {padding: 100px 0;}
+#project_design4  .title{
+    font-size: 2.1875rem; font-weight: 500;
+    letter-spacing: -0.02em; text-align: center;
+    margin-bottom: 60px;
+}
+#project_design4  .title em{
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+}
+#project_design4  .page {
+    display: flex; justify-content: center;
+}
+#project_design4  .page p{
+    margin-right: 40px; width: 300px;
+}
+#project_design4  .page p:last-child {margin-right: 0;}
+#project_design4  .page p img{width: 100%;}
