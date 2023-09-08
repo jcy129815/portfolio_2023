@@ -371,7 +371,7 @@ main #project_design2 .info .banner p img {
     display: flex; justify-content: center;
 }
 #project_design4  .page p{
-    margin-right: 40px; width: 300px;
+    margin-right: 40px; width: 600px;
 }
 #project_design4  .page p:last-child {margin-right: 0;}
 #project_design4  .page p img{width: 100%;}
