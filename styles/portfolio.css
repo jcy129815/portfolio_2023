@@ -170,7 +170,7 @@ main #project_web1 .project_info p em {
     line-height: 40px; margin: 50px 0;
 }
 main #project_web1 .preview {
-    width: 80%; background: lightgoldenrodyellow;
+    width: 80%;
     display: flex; justify-content: space-around;
 }
 main #project_web1 .preview p {}
@@ -388,3 +388,49 @@ main #project_design4 .info .page {
 }
 main #project_design4 .info .page p {margin-bottom: 50px; width: 1000px;}
 main #project_design4 .info .page p img {width: 100%;}
+/* project_disig3=================================================================================== */
+#project_design3 {padding: 100px 0;}
+#project_design3 > p {
+    font-size: 2.1875rem; font-weight: 500;
+    letter-spacing: -0.02em; text-align: center;
+    margin-bottom: 60px;
+}
+#project_design3 > p em {
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+}
+#project_design3 .carde {}
+#project_design3 .carde p {
+    width: 400px; height: 400px; margin-right: 40px;
+}
+#project_design3 .carde p:last-child {margin-right: 0;}
+#project_design3 .carde p img {
+    width: 100%;
+    border: 3px solid black; border-radius: 25px;
+}
+#project_design3 .carde .top {
+    display: flex; justify-content: center;
+    margin-bottom: 40px;
+}
+#project_design3 .carde .btm {
+    display: flex; justify-content: center;
+}
+/* project_disig4=================================================================================== */
+#project_design4 {padding: 100px 0;}
+#project_design4  .title{
+    font-size: 2.1875rem; font-weight: 500;
+    letter-spacing: -0.02em; text-align: center;
+    margin-bottom: 60px;
+}
+#project_design4  .title em{
+    font-size: 3.125rem; font-weight: 500;
+    letter-spacing: -0.02em;
+}
+#project_design4  .page {
+    display: flex; justify-content: center;
+}
+#project_design4  .page p{
+    margin-right: 40px; width: 600px;
+}
+#project_design4  .page p:last-child {margin-right: 0;}
+#project_design4  .page p img{width: 100%;}
