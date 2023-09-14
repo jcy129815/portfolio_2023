@@ -130,7 +130,11 @@ main #project_web1 h1 {
     letter-spacing: -0.02em;
     padding-top: 130px; padding-bottom: 50px;
 }
-main #project_web1 .link {margin-top: 50px;}
+main #project_web1 .link {
+    margin-top: 50px; display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
 main #project_web1 .link a {
     display: inline-block; text-align: center;
     font-size: 1.56rem; font-weight: 500; letter-spacing: -0.02em;
@@ -138,7 +142,7 @@ main #project_web1 .link a {
 }
 main #project_web1 .link a:first-child,
 main #project_web1 .link a:nth-child(2) {
-    background: #000; color: #fff; margin: 0 35px;
+    background: #000; color: #fff;
     transition: all 0.4s linear;
 }
 main #project_web1 .link a:first-child:hover,
@@ -154,17 +158,24 @@ main #project_web1 .link a:last-child:hover {
     background: #fff; color: #A058E1; 
     box-shadow: 0px 0px 10px #000;
 }
-main #project_web1 .project_info {}
+main #project_web1 .project_info {
+    width: 70%;
+}
 main #project_web1 .project_info p {
-    font-size: 1.25rem; line-height: 35px;
-    margin: 50px 0;
+    font-size: 1.5rem; line-height: 40px;
+    margin: 50px 0; font-weight: 500;
+} 
+main #project_web1 .project_info p em {
+    font-weight: 700;font-size: 1.78rem;
+    line-height: 40px; margin: 50px 0;
 }
 main #project_web1 .preview {
-    width: 985px;
-    display: flex; justify-content: space-between;
+    width: 80%; background: lightgoldenrodyellow;
+    display: flex; justify-content: space-around;
 }
 main #project_web1 .preview p {}
-main #project_web1 .preview p img {}
+main #project_web1 .preview p:last-child {width: 400px;}
+main #project_web1 .preview p img {width: 100%;}
 /* proect_web2================================================================================================================================== */
 main #project_web2 {
     display: flex; flex-flow: column nowrap;
@@ -175,7 +186,12 @@ main #project_web2 h1 {
     letter-spacing: -0.02em;
     padding-top: 130px; padding-bottom: 50px;
 }
-main #project_web2 .link {margin-top: 50px;}
+main #project_web2 .link {
+    margin-top: 50px; display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
 main #project_web2 .link a {
     display: inline-block; text-align: center;
     font-size: 1.56rem; font-weight: 500; letter-spacing: -0.02em;
@@ -183,7 +199,7 @@ main #project_web2 .link a {
 }
 main #project_web2 .link a:first-child,
 main #project_web2 .link a:nth-child(2) {
-    background: #000; color: #fff; margin: 0 35px;
+    background: #000; color: #fff;
     transition: all 0.4s linear;
 }
 main #project_web2 .link a:first-child:hover,
@@ -199,17 +215,24 @@ main #project_web2 .link a:last-child:hover {
     background: #fff; color: #FDD000; 
     box-shadow: 0px 0px 10px #444444;
 }
-main #project_web2 .project_info {}
+main #project_web2 .project_info {
+    width: 70%;
+}
 main #project_web2 .project_info p {
     font-size: 1.25rem; line-height: 35px;
-    margin: 50px 0;
+    margin: 50px 0; font-weight: 500;
+}
+main #project_web2 .project_info p em {
+    font-size: 1.78rem; line-height: 40px;
+    margin: 50px 0; font-weight: 700;
+
 }
 main #project_web2 .preview {
-    width: 985px;
-    display: flex; justify-content: space-between;
+    width: 80%;
+    display: flex; justify-content: space-around;
 }
-main #project_web2 .preview p {}
-main #project_web2 .preview p img {}
+main #project_web2 .preview p:last-child {width: 400px;}
+main #project_web2 .preview p img {width: 100%;}
 /* proect_web3================================================================================================================================== */
 main #project_web3 {
     display: flex; flex-flow: column nowrap;
@@ -220,7 +243,10 @@ main #project_web3 h1 {
     letter-spacing: -0.02em;
     padding-top: 130px; padding-bottom: 50px;
 }
-main #project_web3 .link {margin-top: 50px;}
+main #project_web3 .link {
+    margin-top: 50px; display:  flex;
+    justify-content: space-around; width: 80%;
+}
 main #project_web3 .link a {
     display: inline-block; text-align: center;
     font-size: 1.56rem; font-weight: 500; letter-spacing: -0.02em;
@@ -228,7 +254,7 @@ main #project_web3 .link a {
 }
 main #project_web3 .link a:first-child,
 main #project_web3 .link a:nth-child(2) {
-    background: #000; color: #fff; margin: 0 35px;
+    background: #000; color: #fff;
     transition: all 0.4s linear;
 }
 main #project_web3 .link a:first-child:hover,
@@ -244,20 +270,26 @@ main #project_web3 .link a:last-child:hover {
     background: #fff; color: #000; 
     box-shadow: 0px 0px 10px #A0A0A0;
 }
-main #project_web3 .project_info {}
+main #project_web3 .project_info {
+    width: 70%;
+}
 main #project_web3 .project_info p {
-    font-size: 1.25rem; line-height: 35px;
-    margin: 50px 0;
+    font-size: 1.5rem; line-height: 40px;
+    margin: 50px 0; font-weight: 500;
+}
+main #project_web3 .project_info p em {
+    font-weight: 700; font-size: 1.78rem;
+    line-height: 40px; margin: 50px 0; 
 }
 main #project_web3 .preview {
-    width: 985px;
-    display: flex; justify-content: space-between;
+    width: 80%; 
+    display: flex; justify-content: space-around;
 }
-main #project_web3 .preview p {}
-main #project_web3 .preview p img {}
+main #project_web3 .preview p:last-child {width: 400px;}
+main #project_web3 .preview p img {width: 100%;}
 /* project_disign1================================================================================================================================== */
 main #project_design1 {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 main #project_design1 .title {
     font-size: 2.1875rem; font-weight: 500;
@@ -271,30 +303,20 @@ main #project_design1 .title em {
 main #project_design1 .info {
     display: flex; justify-content: center;
     align-items: center;
-    padding-left: 115px; margin-bottom: 30px;
+    width: 80%;
+    margin:0 auto 30px;
 }
 main #project_design1 .info > p {
-    font-size: 1.25rem; line-height: 35px; letter-spacing: -0.02em;
-    margin-right: 98px; 
+    font-size: 1.7rem; line-height: 40px; letter-spacing: -0.02em;
+    font-weight: 500;
 }
-main #project_design1 .info .snsrap1 {
-    display: flex; 
+main #project_design1 .snsrap {
+    display: flex; flex-flow: row wrap;
+    justify-content: space-around; margin:0 auto;
+    width: 1400px;
 }
-main #project_design1 .info .snsrap1 > p {width: 300px;}
-main #project_design1 .info .snsrap1 > p img {
-    width: 100%; border: 5px solid black; 
-    border-radius: 25px;
-}
-main #project_design1 .info .snsrap1 .sns1 {margin-right: 40px;}
-main #project_design1 .info .snsrap1 .sns1 img {}
-main #project_design1 .info .snsrap1 .sns2 {}
-main #project_design1 .info .snsrap1 .sns2 img {}
-main #project_design1 .snsrap2 {
-    display: flex; justify-content: center;
-}
-main #project_design1 .snsrap2 > p {width: 300px; margin-right: 40px;}
-main #project_design1 .snsrap2 > p:last-child {margin-right: 0;}
-main #project_design1 .snsrap2 > p img {
+main #project_design1 .snsrap > p {width: 400px; margin-bottom: 30px;}
+main #project_design1 .snsrap > p img {
     width: 100%; border: 5px solid black; 
     border-radius: 25px;
 }
@@ -314,14 +336,14 @@ main #project_design2 .info {
     align-items: center;
 }
 main #project_design2 .info > p {
-    font-size: 1.25rem; line-height: 35px; letter-spacing: -0.02em;
+    font-size: 1.7rem; line-height: 40px; letter-spacing: -0.02em;
     margin-bottom: 40px;
 }
 main #project_design2 .info .banner {
     display: flex; flex-flow: row wrap;
     justify-content: center;
 }
-main #project_design2 .info .banner p {width: 670px; }
+main #project_design2 .info .banner p {width: 900px; }
 main #project_design2 .info .banner .banner1 {margin: 0 10px 20px 0;}
 main #project_design2 .info .banner .banner2 {margin-bottom: 20px;}
 main #project_design2 .info .banner .banner3 {margin-right: 10px;}
@@ -329,3 +351,40 @@ main #project_design2 .info .banner p img {
     width: 100%;
     border: 5px solid black; border-radius: 25px;
 }
+/* main #project_design3======================================================= */
+main #project_design3 {padding: 100px 0; text-align: center;}
+main #project_design3 .title {
+    font-size: 2.1875rem; letter-spacing: -0.02em;
+    margin-bottom: 60px;
+}
+main #project_design3 .title em {
+    font-size: 3.125rem;
+    font-weight: 500; letter-spacing: -0.02em;
+}
+main #project_design3 .info {}
+main #project_design3 .info .card {
+    display: flex; flex-flow: row wrap;
+    justify-content: space-around;
+}
+main #project_design3 .info .card p {
+    width: 450px; margin-bottom: 30px; 
+    border: 5px solid black; border-radius: 25px;
+}
+main #project_design3 .info .card p img {width: 100%; border-radius: 18px;}
+/* main #project_design4======================================================= */
+main #project_design4 {padding: 100px 0; text-align: center;}
+main #project_design4 .title {
+    font-size: 2.1875rem; letter-spacing: -0.02em;
+    margin-bottom: 60px;
+}
+main #project_design4 .title em {
+    font-size: 3.125rem;
+    font-weight: 500; letter-spacing: -0.02em;
+}
+main #project_design4 .info {}
+main #project_design4 .info .page {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main #project_design4 .info .page p {margin-bottom: 50px; width: 1000px;}
+main #project_design4 .info .page p img {width: 100%;}
