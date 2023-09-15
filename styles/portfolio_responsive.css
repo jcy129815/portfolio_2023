@@ -1,9 +1,128 @@
-@media screen and (max-width:1495px) {
-        main #skill .container {height: 600px;}
+@media screen and (max-width:1670px) {
+    main #home {height: calc(100% - 50%);}
+    main #home h1 {width: calc(100% - 40%); top: calc(100% - 80%);}
 }
-@media screen and (max-width:1200px) {
-    main #skill .container {height: 1700px;}
+@media screen and (max-width:1516px) {
+    main #project_design1 .snsrap {width: 100%;}
+    main #project_design2 .banner {width: 100%;}
 }
-@media screen and (max-width:1000px) {
-    main #project_web .link a {border-radius: 100%;}
+@media screen and (max-width:1370px) {
+    main #project_web1 .link {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    main #project_web2 .link {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    main #project_web3 .link {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    main #project_web1 .link a:last-child {margin-bottom: 0;}
+    main #project_web1 .link a {
+        margin-bottom: 15px;
+    }
+    main #project_web2 .link a:last-child {margin-bottom: 0;}
+    main #project_web2 .link a {
+        margin-bottom: 15px;
+    }
+    main #project_web3 .link a:last-child {margin-bottom: 0;}
+    main #project_web3 .link a {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:1314px) {
+    main #project_design1 .snsrap > p {
+        width: 350px;
+    }
+}
+@media screen and (max-width:1160px) {
+    main #project_design1 .snsrap > p {
+        width: 320px;
+    }
+}
+@media screen and (max-width:1055px) {
+    main #project_design1 .snsrap > p {
+        width: 350px; margin-bottom: 30px;
+    }
+    main #project_design4 .info .page {
+        width: calc(100% - 10px);
+    }
+}
+@media screen and (max-width:975px) {
+    main #skill .container li .icon > img {}
+    main #skill .container li .icon > img {width: 40px;}
+    main #skill .container {flex-flow: column nowrap;}
+    
+    main #project_design1 .snsrap > p {
+        width: 350px; margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:815px) {
+    main #profile h1 {
+        padding: 40px 40px;
+    }
+    main #profile h1 img {
+        width: 100%;
+    }
+    main #profile .txt {
+        flex-flow: column nowrap;
+        margin-top: 40px;
+    }
+    main #profile .txt > p {padding: 0;}
+    main #profile .txt > ul {
+        margin-top: 40px;
+    }
+    main #project_design1 .snsrap > p {
+        width: 300px;
+    }
+}
+@media screen and (max-width:750px) {
+    main #project_web1 h1 {font-size: 2.5rem;}
+    main #project_web2 h1 {font-size: 2.5rem;}
+    main #project_web3 h1 {font-size: 2.5rem;}
+    main #project_design1 .snsrap > p {
+        width: 450px;
+    }
+    main #project_design2 .info .banner p img {
+        border: 0px;
+    }
+}
+@media screen and (max-width:600px) {
+    main #skill h1{font-size: 3rem;}
+
+    main #project_web1 .link a {font-size: 1.25rem; width: 300px;}
+    main #project_web1 h1 {font-size: 2rem;}
+    main #project_web1 .project_info p em {font-size: 1.5rem;}
+    main #project_web1 .project_info p {font-size: 1.2rem;}
+
+    main #project_web2 .link a {font-size: 1.25rem; width: 300px;}
+    main #project_web2 h1 {font-size: 2rem;}
+    main #project_web2 .project_info p em {font-size: 1.5rem;}
+    main #project_web2 .project_info p {font-size: 1.2rem;}
+
+    main #project_web3 .link a {font-size: 1.25rem; width: 300px;}
+    main #project_web3 h1 {font-size: 2rem;}
+    main #project_web3 .project_info p em {font-size: 1.5rem;}
+    main #project_web3 .project_info p {font-size: 1.2rem;}
+}
+@media screen and (max-width:525px) {
+    main #skill h1{font-size: 2.75rem;}
+
+    main #profile .txt > ul {
+        border-right: 0px;
+    }
+
+    main #project_design1 .title {font-size: 1.5rem;}
+    main #project_design1 .title em {font-size: 2.1875rem;}
+    main #project_design1 .info > p {font-size: 1.25rem; line-height: 25px;}
+    main #project_design2 .title {font-size: 1.5rem;}
+    main #project_design2 .title em {font-size: 2.1875rem;}
+    main #project_design2 .info > p {font-size: 1.25rem; line-height: 25px;}
+    main #project_design3 .title {font-size: 1.5rem;}
+    main #project_design3 .title em {font-size: 2.1875rem;}
+    main #project_design3 .info > p {font-size: 1.25rem; line-height: 25px;}
+    main #project_design4 .title {font-size: 1.5rem;}
+    main #project_design4 .title em {font-size: 2.1875rem;}
 }
