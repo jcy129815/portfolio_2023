@@ -191,7 +191,7 @@ main #project_web2 .link {
     margin-top: 50px; display: flex;
     justify-content: space-around;
     width: 80%;
-
+    padding: 0 80px;
 }
 main #project_web2 .link a {
     display: inline-block; text-align: center;
@@ -247,6 +247,7 @@ main #project_web3 h1 {
 main #project_web3 .link {
     margin-top: 50px; display:  flex;
     justify-content: space-around; width: 80%;
+    padding: 0 80px;
 }
 main #project_web3 .link a {
     display: inline-block; text-align: center;
