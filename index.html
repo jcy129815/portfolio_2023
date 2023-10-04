@@ -14,6 +14,20 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/portfolio.css">
     <link rel="stylesheet" href="./styles/portfolio_responsive.css">
+    <style>
+        #popup {
+            position:fixed; left:0; top:0;
+            z-index:9999; width:100%; height:100vh;
+            background:rgba(255,255,255,0.5);
+            display:none;
+        }
+        #popup .contents {
+            background:gray;
+            width:900px; height:75vh; overflow-y:auto;
+            margin:70px auto 0;
+        }
+        #popup .contents img {width:100%;}
+    </style>
 </head>
 <body>
     <header>
@@ -266,6 +280,31 @@
                     <p class="page1"><img src="./images/page/page_2.jpg" alt=""></p>
                 </div>
             </div>
-        </section>  
+        </section>
+        <!-- 썸네일 클릭 시 나타나는 팝업 -->
+        <div id="popup">
+            <div class="contents"><!--이미지 보여주는 영역-->
+                <img src="" alt="">
+            </div>
+        </div>
+        <script>
+
+            const design4_p = document.querySelectorAll('#project_design4 .page1')
+            const design4_popup = document.querySelector('#popup')
+            const design4_popup_img = document.querySelector('#popup img')
+            console.log(design4_p, design4_popup, design4_popup_img)
+
+            design4_p.forEach(function(t,i,a){
+                t.addEventListener('click',function(){
+                    design4_popup.style.display = 'block'
+                    design4_popup_img.src = `./images/page/page_${i+1}.jpg`
+                })
+            })
+
+            design4_popup.addEventListener('click',function(){
+                design4_popup.style.display = 'none'
+            })
+
+        </script>
 </body>
 </html>
