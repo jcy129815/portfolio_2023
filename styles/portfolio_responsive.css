@@ -59,6 +59,14 @@
         width: 350px; margin-bottom: 30px;
     }
 }
+@media screen and (max-width:945px) {    
+    main #project_design4 .info .page p {
+        border-radius: 0 0 0 0;
+    }
+    main #project_design3 .info .card p img {
+        border: 0px; border-radius: 0;
+    }
+}
 @media screen and (max-width:815px) {
     main #profile h1 {
         padding: 40px 40px;
