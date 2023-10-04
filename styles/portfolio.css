@@ -394,5 +394,6 @@ main #project_design4 .info .page {
 main #project_design4 .info .page p {
     margin-bottom: 50px; padding: 0 40px; width: 100%; height: 480px;
     overflow: hidden; border-radius: 50% 50% 0 0;
+    cursor:pointer;
 }
 main #project_design4 .info .page p img {width: 100%;}
