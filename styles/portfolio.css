@@ -388,11 +388,11 @@ main #project_design4 .title em {
 }
 main #project_design4 .info {}
 main #project_design4 .info .page {
-    display: flex; flex-flow: row nowrap;
+    display: flex; flex-flow: row wrap;
     align-items: center; margin: 0 auto;
 }
 main #project_design4 .info .page p {
-    margin-bottom: 50px; padding: 0 40px; width: 100%; height: 480px;
+    margin-bottom: 50px; padding: 0 40px; width: 33.3%; height: 480px;
     overflow: hidden; border-radius: 50% 50% 0 0;
     cursor:pointer;
 }
