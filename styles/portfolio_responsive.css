@@ -136,4 +136,9 @@
     main #project_design3 .info > p {font-size: 1.25rem; line-height: 25px;}
     main #project_design4 .title {font-size: 1.5rem;}
     main #project_design4 .title em {font-size: 2.1875rem;}
+
+    
+    #popup .contents {
+        width: 80%;
+    }
 }
