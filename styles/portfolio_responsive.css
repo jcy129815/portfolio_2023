@@ -50,7 +50,7 @@
         width: calc(100% - 10px);
     }
     #popup .contents {
-        width: 80%;
+        width: 90%;
     }
 }
 @media screen and (max-width:975px) {
@@ -139,6 +139,6 @@
 
     
     #popup .contents {
-        width: 80%;
+        width: 90%;
     }
 }
