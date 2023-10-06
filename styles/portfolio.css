@@ -369,7 +369,7 @@ main #project_design3 .info .card {
     justify-content: space-around; padding: 0 40px;
 }
 main #project_design3 .info .card p {
-    width: 24.5%; margin-bottom: 30px; 
+    width: 400px; margin-bottom: 30px; 
     border-radius: 25px;
 }
 main #project_design3 .info .card p img {
@@ -390,9 +390,10 @@ main #project_design4 .info {}
 main #project_design4 .info .page {
     display: flex; flex-flow: row wrap;
     align-items: center; margin: 0 auto;
+    justify-content: center;
 }
 main #project_design4 .info .page p {
-    margin-bottom: 50px; padding: 0 40px; width: 33.3%; height: 480px;
+    margin-bottom: 50px; padding: 0 40px; width: 500px; height: 480px;
     overflow: hidden; border-radius: 50% 50% 0 0;
     cursor:pointer;
 }

@@ -49,6 +49,9 @@
     main #project_design4 .info .page {
         width: calc(100% - 10px);
     }
+    #popup .contents {
+        width: 80%;
+    }
 }
 @media screen and (max-width:975px) {
     main #skill .container li .icon > img {}
