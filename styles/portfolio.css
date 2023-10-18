@@ -148,15 +148,15 @@ main #project_web1 .link a:nth-child(2) {
 }
 main #project_web1 .link a:first-child:hover,
 main #project_web1 .link a:nth-child(2):hover {
-    background: #fff; color: #A058E1; 
-    box-shadow: 0px 0px 10px #A058E1;
+    background: #fff; color: #5861e1; 
+    box-shadow: 0px 0px 10px #5861e1;
 }
 main #project_web1 .link a:last-child {
-    background: #A058E1; color: #fff;
+    background: #5861e1; color: #fff;
     transition: all 0.4s linear;
 }
 main #project_web1 .link a:last-child:hover {
-    background: #fff; color: #A058E1; 
+    background: #fff; color: #5861e1; 
     box-shadow: 0px 0px 10px #000;
 }
 main #project_web1 .project_info {
@@ -174,7 +174,9 @@ main #project_web1 .preview {
     width: 80%;
     display: flex; justify-content: space-around;
 }
-main #project_web1 .preview p {}
+main #project_web1 .preview p:first-child {
+    width: 600px;
+}
 main #project_web1 .preview p:last-child {width: 400px; height: 417px; overflow: hidden;}
 main #project_web1 .preview p img {width: 100%;}
 /* proect_web2================================================================================================================================== */
